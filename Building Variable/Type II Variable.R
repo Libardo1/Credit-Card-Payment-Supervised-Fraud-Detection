@@ -1,5 +1,3 @@
-
-setwd("~/Downloads/USC/Class/2017 Spring/DSO 562 Fraud Analytics/HW/Project 3")
 load("Card Payments_Cleaned.rda")
 
 library(data.table)
