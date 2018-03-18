@@ -119,7 +119,6 @@ zip_merch = unique(zip_merch)
 data1 = left_join(data,zip_merch,
                  by=c('date'='date', 'merchnum'='merchnum', 'merch.zip'='merch.zip'))
 
-###Something's wrong!!!!!
 
 #a = data[duplicated(data$recordnum), ]
 #a = zip_merch[duplicated(zip_merch, by=c("date", "merchnum", "merch.zip")), ]
