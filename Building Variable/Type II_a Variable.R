@@ -3,7 +3,7 @@ load("Card Payments_Cleaned.rda")
 library(dplyr)
 
 
-#############################  Type I Variable     ######################
+#############################  Type II Variable     ######################
 # historical count with 3 days time window
 
 ##############   Subset trial     #############
